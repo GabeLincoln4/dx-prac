@@ -6,6 +6,7 @@
 
 ApplicationClass::ApplicationClass()
 {
+	m_Direct3D = 0;
 }
 
 
@@ -21,6 +22,9 @@ ApplicationClass::~ApplicationClass()
 
 bool ApplicationClass::Initialize(int screenWidth, int screenHeight, HWND hwnd)
 {
+	bool result;
+
+	m_Direct3D = new D3DClass;
 
 	return true;
 }
