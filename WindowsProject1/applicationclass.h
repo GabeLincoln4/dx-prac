@@ -35,9 +35,6 @@ public:
 
 private:
 	bool Render();
-
-private:
-
 };
 
 #endif

@@ -73,10 +73,11 @@ void SystemClass::Run()
 			DispatchMessage(&msg);
 		}
 
-		if (msg.message = WM_QUIT)
+		if (msg.message == WM_QUIT)
 		{
 			done = true;
 		}
+
 		else
 		{
 			result = Frame();
