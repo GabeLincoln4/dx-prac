@@ -1,2 +1,5 @@
-﻿  systemclass.cpp
+﻿  applicationclass.cpp
+  main.cpp
+  systemclass.cpp
+  Generating Code...
   WindowsProject1.vcxproj -> C:\Users\Gabriel\directx11\practice-proj\directX11-boilerplate\x64\Debug\WindowsProject1.exe
